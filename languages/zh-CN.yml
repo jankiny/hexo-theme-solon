@@ -1,4 +1,7 @@
 common:
+    home:
+        one: '首页'
+        other: '首页'
     archive:
         one: '归档'
         other: '归档'
@@ -8,6 +11,12 @@ common:
     tag:
         one: '标签'
         other: '标签'
+    music:
+        one: '音乐'
+        other: '音乐'
+    about:
+        one: '关于'
+        other: '关于'
     post:
         one: '文章'
         other: '文章'
@@ -52,12 +61,12 @@ plugin:
     visit_count: '%s次访问'
     visitor_count: '共%s个访客'
     cookie_consent:
-      message: 此网站使用Cookie来改善您的体验。
-      dismiss: 知道了！
-      allow: 允许使用Cookie
-      deny: 拒绝
-      link: 了解更多
-      policy: Cookie政策
+        message: 此网站使用Cookie来改善您的体验。
+        dismiss: 知道了！
+        allow: 允许使用Cookie
+        deny: 拒绝
+        link: 了解更多
+        policy: Cookie政策
 search:
     search: '搜索'
     hint: '想要查找什么...'

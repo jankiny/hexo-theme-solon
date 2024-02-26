@@ -1,4 +1,7 @@
 common:
+    home:
+        one: 'Home'
+        other: 'Home'
     archive:
         one: 'Archive'
         other: 'Archives'
@@ -8,6 +11,12 @@ common:
     tag:
         one: 'Tag'
         other: 'Tags'
+    music:
+        one: 'Music'
+        other: 'Music'
+    about:
+        one: 'About'
+        other: 'About'
     post:
         one: 'Post'
         other: 'Posts'
@@ -52,12 +61,12 @@ plugin:
     visit_count: '%s&nbsp;visits'
     visitor_count: 'Visited by %s users'
     cookie_consent:
-      message: This website uses cookies to improve your experience.
-      dismiss: Got it!
-      allow: Allow cookies
-      deny: Decline
-      link: Learn more
-      policy: Cookie Policy
+        message: This website uses cookies to improve your experience.
+        dismiss: Got it!
+        allow: Allow cookies
+        deny: Decline
+        link: Learn more
+        policy: Cookie Policy
 search:
     search: 'Search'
     hint: 'Type something...'
