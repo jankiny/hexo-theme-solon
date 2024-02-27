@@ -21,7 +21,8 @@ module.exports = class extends Component {
                         {posts.map(post => {
                             const categories = post.categories.map(category => ({
                                 url: url_for(category.path),
-                                name: category.name
+                                name: __('category.' + category.name)
+                                // name: category.name
                             }));
                             return <ArticleMedia
                                 url={url_for(post.link || post.path)}

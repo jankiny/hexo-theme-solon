@@ -63,7 +63,8 @@ module.exports = class extends Component {
                                 {(() => {
                                     const categories = [];
                                     page.categories.forEach((category, i) => {
-                                        categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
+                                        categories.push(<a class="link-muted" href={url_for(category.path)}>{__('category.' + category.name)}</a>);
+                                        // categories.push(<a class="link-muted" href={url_for(category.path)}>{category.name}</a>);
                                         if (i < page.categories.length - 1) {
                                             categories.push(<span>&nbsp;/&nbsp;</span>);
                                         }

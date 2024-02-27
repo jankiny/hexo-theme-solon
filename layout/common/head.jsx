@@ -16,7 +16,8 @@ function getPageTitle(page, siteTitle, helper) {
             title += ': ' + page.year;
         }
     } else if (helper.is_category()) {
-        title = helper._p('common.category', 1) + ': ' + page.category;
+        title = helper._p('common.category', 1) + ': ' + helper.__('category.' + page.category);
+        // title = helper._p('common.category', 1) + ': ' + page.category;
     } else if (helper.is_tag()) {
         title = helper._p('common.tag', 1) + ': ' + page.tag;
     } else if (helper.is_categories()) {

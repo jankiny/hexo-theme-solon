@@ -89,10 +89,16 @@ class Widgets extends Component {
                     return null;
                 }
                 try {
-                    let Widget = view.require('widget/' + widget.type);
+                    let Widget;
+                    if (widget.local) {
+                        Widget = require('../widget/'+ widget.type);
+                    } else {
+                        Widget = view.require('widget/' + widget.type);
+                    }
                     Widget = Widget.Cacheable ? Widget.Cacheable : Widget;
                     return <Widget site={site} helper={helper} config={config} page={page} widget={widget} />;
                 } catch (e) {
+                    console.log(e)
                     logger.w(`Icarus cannot load widget "${widget.type}"`);
                 }
                 return null;

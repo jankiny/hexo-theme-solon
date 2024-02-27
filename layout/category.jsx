@@ -4,7 +4,7 @@ const Index = require('./index');
 module.exports = class extends Component {
     render() {
         const { config, page, helper } = this.props;
-        const { url_for, _p } = helper;
+        const { url_for, _p, __ } = helper;
 
         return <Fragment>
             <div class="card">
@@ -13,9 +13,11 @@ module.exports = class extends Component {
                         <ul>
                             <li><a href={url_for('/categories')}>{_p('common.category', Infinity)}</a></li>
                             {page.parents.map(category => {
-                                return <li><a href={url_for(category.path)}>{category.name}</a></li>;
+                                return <li><a href={url_for(category.path)}>{__('category.' + category.name)}</a></li>;
+                                // return <li><a href={url_for(category.path)}>{category.name}</a></li>;
                             })}
-                            <li class="is-active"><a href="#" aria-current="page">{page.category}</a></li>
+                            <li class="is-active"><a href="#" aria-current="page">{__('category.' + page.category)}</a></li>
+                            {/*<li class="is-active"><a href="#" aria-current="page">{page.category}</a></li>*/}
                         </ul>
                     </nav>
                 </div>

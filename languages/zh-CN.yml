@@ -1,5 +1,14 @@
 category:
-    development: '开发'
+    Development: '开发'
+    Frontend: '前端'
+
+    Projects: '项目'
+    WebBlog: '网络博客'
+
+    Tools: '工具'
+    Download: '下载'
+    Management: '系统管理'
+
 common:
     home:
         one: '首页'

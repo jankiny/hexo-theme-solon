@@ -1,5 +1,14 @@
 category:
-    development: 'Development'
+    Development: 'Development'
+    Frontend: 'Frontend'
+
+    Projects: 'Projects'
+    WebBlog: 'WebBlog'
+
+    Tools: 'Tools'
+    Download: 'Download'
+    Management: 'Management'
+
 common:
     home:
         one: 'Home'
