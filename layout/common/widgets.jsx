@@ -98,7 +98,6 @@ class Widgets extends Component {
                     Widget = Widget.Cacheable ? Widget.Cacheable : Widget;
                     return <Widget site={site} helper={helper} config={config} page={page} widget={widget} />;
                 } catch (e) {
-                    console.log(e)
                     logger.w(`Icarus cannot load widget "${widget.type}"`);
                 }
                 return null;
