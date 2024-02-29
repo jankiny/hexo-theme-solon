@@ -1,6 +1,12 @@
 category:
     Development: 'Development'
+    Database: 'Database'
+    Deploy: 'Deploy'
     Frontend: 'Frontend'
+
+    Entertainment: 'Entertainment'
+    Media: 'Media'
+    Games: 'Games'
 
     Machine Learning: 'Machine Learning'
     Computer Vision: 'Computer Vision'
@@ -11,6 +17,7 @@ category:
     Tools: 'Tools'
     Download: 'Download'
     Management: 'Management'
+    Networks: 'Networks'
 
 common:
     home:

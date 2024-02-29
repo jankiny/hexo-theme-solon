@@ -1,6 +1,12 @@
 category:
     Development: '开发'
+    Database: '数据库'
+    Deploy: '部署'
     Frontend: '前端'
+
+    Entertainment: '娱乐'
+    Media: '媒体'
+    Games: '游戏'
 
     Machine Learning: '机器学习'
     Computer Vision: '计算机视觉'
@@ -11,6 +17,7 @@ category:
     Tools: '工具'
     Download: '下载'
     Management: '系统管理'
+    Networks: '网络'
 
 common:
     home:
