@@ -30,7 +30,6 @@ class AddToAny extends Component {
             </div>
             <script async src="https://static.addtoany.com/menu/page.js"></script>
             <!-- AddToAny END -->
-            <script src="https://static.addtoany.com/menu/page.js" defer={true}></script>
         </Fragment>;
     }
 }
