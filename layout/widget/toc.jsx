@@ -159,7 +159,8 @@ Toc.Cacheable = cacheComponent(Toc, 'widget.toc', (props) => {
     const {layout, content, encrypt, origin} = page;
     const {index} = widget;
 
-    if (config.toc !== true || (layout !== 'page' && layout !== 'post') || encrypt) {
+    if (config.toc !== true || (layout !== 'page' && layout !== 'post')) {
+    // if (config.toc !== true || (layout !== 'page' && layout !== 'post')) {
         return null;
     }
 
