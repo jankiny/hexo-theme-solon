@@ -1,4 +1,7 @@
 category:
+    Other: 'Other'
+    English Study: 'English Study'
+
     Development: 'Development'
     Database: 'Database'
     Deploy: 'Deploy'

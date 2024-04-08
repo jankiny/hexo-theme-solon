@@ -1,4 +1,7 @@
 category:
+    Other: '其他'
+    English Study: '英语学习'
+
     Development: '开发'
     Database: '数据库'
     Deploy: '部署'
