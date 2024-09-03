@@ -1,4 +1,10 @@
 category:
+    Notes: 'Notes'
+    Academics: 'Academics'
+    Diary: 'Diary'
+    Tech: 'Tech'
+    Interests: 'Interests'
+
     Other: 'Other'
     English Study: 'English Study'
 
